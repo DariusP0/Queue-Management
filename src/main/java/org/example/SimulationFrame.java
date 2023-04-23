@@ -73,52 +73,40 @@ import java.awt.event.ActionListener;
             frame.setSize(640, 480);
 
 
-
-            startButton.addActionListener(new ActionListener() {
-                public void actionPerformed(ActionEvent e) {
-                    start();
-                }
-            });
-
         }
 
-        public void run() {
-            setVisible(true);
-        }
-
-        public void start() {
-            N = Integer.parseInt(txtClients.getText());
-            Q = Integer.parseInt(txtQueues.getText());
-            timeLimit = Integer.parseInt(txtSimulationInterval.getText());
-            maxArrTime = Integer.parseInt(txtMaxArrivalTime.getText());
-            minArrTime = Integer.parseInt(txtMinArrivalTime.getText());
-            minServiceTime = Integer.parseInt(txtMinServiceTime.getText());
-            maxServiceTime = Integer.parseInt(txtMaxServiceTime.getText());
-
-            //
-        }
         public int getN(){
-            return this.N;
+            return Integer.parseInt(txtClients.getText());
         }
         public int getQ(){
-            return this.Q;
+            return Integer.parseInt(txtQueues.getText());
         }
         public int getTimeLimit(){
-            return this.timeLimit;
+            return Integer.parseInt(txtSimulationInterval.getText());
         }
         public int getMaxArrTime(){
-            return this.maxArrTime;
+            return Integer.parseInt(txtMaxArrivalTime.getText());
         }
         public int getMinArrTime(){
-            return this.minArrTime;
+            return Integer.parseInt(txtMinArrivalTime.getText());
         }
         public int getMinServiceTime(){
-            return this.minServiceTime;
+            return Integer.parseInt(txtMinServiceTime.getText());
         }
         public int getMaxServiceTime(){
-            return this.maxServiceTime;
+            return Integer.parseInt(txtMaxServiceTime.getText());
         }
-
-
+        public void addButtonListener(ActionListener action) {
+            startButton.addActionListener(action);
+        }
+//        public static void main(String[] args) {
+////            SimulationFrame inputView = new SimulationFrame();
+////            if(inputView.start()==1){
+////            SimulationManager gen = new SimulationManager(inputView);
+////            Thread t = new Thread(gen);
+////            t.start();
+////                //
+//            }
     }
+
 
