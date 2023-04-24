@@ -78,7 +78,7 @@ public class SimulationManager implements Runnable{
             generatedTasks.removeIf(task -> task.getServiceTime() <= 0);
 
             try {
-                File file = new File("output.txt");
+                File file = new File("Test3.txt");
                 FileWriter writer = new FileWriter(file, true);
                 // Write current time to file
                 writer.write("Current Time: " + currentTime + "\n");
