@@ -65,7 +65,6 @@ public class SimulationManager implements Runnable{
     public void run() {
         int currentTime = 0;
         while (currentTime < tL) {
-            // Display current time on the frame
 
             // Dispatch tasks that have an arrival time equal to the current time
             for (Task task : generatedTasks) {
@@ -78,18 +77,25 @@ public class SimulationManager implements Runnable{
             generatedTasks.removeIf(task -> task.getServiceTime() <= 0);
 
             try {
-                File file = new File("Test3.txt");
+                File file = new File("output.txt");
                 FileWriter writer = new FileWriter(file, true);
                 // Write current time to file
                 writer.write("Current Time: " + currentTime + "\n");
                 // Add line of dashes
                 writer.write("--------------------------------------------\n");
+
+                // Print generated tasks
+                writer.write("Generated Tasks:\n");
+                for (Task task : generatedTasks) {
+                    writer.write(task.toString() + "\n");
+                }
+
                 List<Server> servers = scheduler.getServers();
                 for (int i = 0; i < servers.size(); i++) {
                     Server server = servers.get(i);
-                    writer.write("Server " + (i+1)+":\n");
+                    writer.write("Server " + (i+1) + ":\n");
                     Task[] task = server.getTasks();
-                    for(int j = 0; j< task.length; j++){
+                    for (int j = 0; j < task.length; j++) {
                         writer.write(task[j].toString() + "\n");
                     }
                 }
@@ -112,6 +118,7 @@ public class SimulationManager implements Runnable{
             queues.refresh();
         }
     }
+
 
 
 
