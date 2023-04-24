@@ -36,10 +36,6 @@ public class SimulationView extends JFrame{
         this.simArea.setText(info);
     }
 
-    public void showMessage(String message) {
-        JOptionPane.showMessageDialog(this, message);
-    }
-
     public void refresh() {
         this.simArea.setText("");
     }
