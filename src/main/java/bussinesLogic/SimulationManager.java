@@ -1,4 +1,8 @@
-package org.example;
+package bussinesLogic;
+
+import GUI.SimulationFrame;
+import GUI.SimulationView;
+import Strategy.SelectionPolicy;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -77,7 +81,7 @@ public class SimulationManager implements Runnable{
             generatedTasks.removeIf(task -> task.getServiceTime() <= 0);
 
             try {
-                File file = new File("output.txt");
+                File file = new File("output3.txt");
                 FileWriter writer = new FileWriter(file, true);
                 // Write current time to file
                 writer.write("Current Time: " + currentTime + "\n");

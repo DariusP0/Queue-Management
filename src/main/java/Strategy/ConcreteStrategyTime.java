@@ -1,10 +1,13 @@
-package org.example;
+package Strategy;
+
+import bussinesLogic.Server;
+import bussinesLogic.Task;
 
 import java.util.List;
 
 public class ConcreteStrategyTime implements Strategy{
     @Override
-    public void addTask(List<Server> servers,Task T){
+    public void addTask(List<Server> servers, Task T){
         int minTime = servers.get(0).getProcessTime();
         Server min = servers.get(0);
 

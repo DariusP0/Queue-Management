@@ -1,4 +1,9 @@
-package org.example;
+package bussinesLogic;
+
+import Strategy.ConcreteStrategyQueue;
+import Strategy.ConcreteStrategyTime;
+import Strategy.SelectionPolicy;
+import Strategy.Strategy;
 
 import java.util.ArrayList;
 import java.util.List;

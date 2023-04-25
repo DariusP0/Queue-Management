@@ -1,4 +1,6 @@
-package org.example;
+package GUI;
+
+import bussinesLogic.SimulationManager;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

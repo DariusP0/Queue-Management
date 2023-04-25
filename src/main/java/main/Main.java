@@ -1,4 +1,8 @@
-package org.example;
+package main;
+
+import GUI.SimulationController;
+import GUI.SimulationFrame;
+import GUI.SimulationView;
 
 public class Main {
     public static void main(String[] args) {

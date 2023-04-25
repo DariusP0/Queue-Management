@@ -84652,3 +84652,97 @@ Task307: arrivalTime: 94   serviceTime: 3
 Task830: arrivalTime: 94   serviceTime: 5
 Task617: arrivalTime: 96   serviceTime: 7
 Task861: arrivalTime: 98   serviceTime: 8
+Current Time: 0
+--------------------------------------------
+Generated Tasks:
+Task3: arrivalTime: 1   serviceTime: 3
+Task0: arrivalTime: 2   serviceTime: 1
+Task1: arrivalTime: 2   serviceTime: 2
+Task2: arrivalTime: 4   serviceTime: 3
+Task4: arrivalTime: 4   serviceTime: 2
+Server 1:
+Server 2:
+Current Time: 1
+--------------------------------------------
+Generated Tasks:
+Task3: arrivalTime: 1   serviceTime: 3
+Task0: arrivalTime: 2   serviceTime: 1
+Task1: arrivalTime: 2   serviceTime: 2
+Task2: arrivalTime: 4   serviceTime: 3
+Task4: arrivalTime: 4   serviceTime: 2
+Server 1:
+Task3: arrivalTime: 1   serviceTime: 3
+Server 2:
+Current Time: 2
+--------------------------------------------
+Generated Tasks:
+Task3: arrivalTime: 1   serviceTime: 3
+Task0: arrivalTime: 2   serviceTime: 1
+Task1: arrivalTime: 2   serviceTime: 2
+Task2: arrivalTime: 4   serviceTime: 3
+Task4: arrivalTime: 4   serviceTime: 2
+Server 1:
+Task3: arrivalTime: 1   serviceTime: 3
+Server 2:
+Task0: arrivalTime: 2   serviceTime: 1
+Task1: arrivalTime: 2   serviceTime: 2
+Current Time: 3
+--------------------------------------------
+Generated Tasks:
+Task3: arrivalTime: 1   serviceTime: 2
+Task0: arrivalTime: 2   serviceTime: 1
+Task1: arrivalTime: 2   serviceTime: 2
+Task2: arrivalTime: 4   serviceTime: 3
+Task4: arrivalTime: 4   serviceTime: 2
+Server 1:
+Task3: arrivalTime: 1   serviceTime: 2
+Server 2:
+Task0: arrivalTime: 2   serviceTime: 1
+Task1: arrivalTime: 2   serviceTime: 2
+Current Time: 4
+--------------------------------------------
+Generated Tasks:
+Task3: arrivalTime: 1   serviceTime: 1
+Task1: arrivalTime: 2   serviceTime: 2
+Task2: arrivalTime: 4   serviceTime: 3
+Task4: arrivalTime: 4   serviceTime: 2
+Server 1:
+Task3: arrivalTime: 1   serviceTime: 1
+Task2: arrivalTime: 4   serviceTime: 3
+Server 2:
+Task1: arrivalTime: 2   serviceTime: 2
+Task4: arrivalTime: 4   serviceTime: 2
+Current Time: 5
+--------------------------------------------
+Generated Tasks:
+Task1: arrivalTime: 2   serviceTime: 1
+Task2: arrivalTime: 4   serviceTime: 3
+Task4: arrivalTime: 4   serviceTime: 2
+Server 1:
+Task2: arrivalTime: 4   serviceTime: 3
+Server 2:
+Task1: arrivalTime: 2   serviceTime: 1
+Task4: arrivalTime: 4   serviceTime: 2
+Current Time: 6
+--------------------------------------------
+Generated Tasks:
+Task2: arrivalTime: 4   serviceTime: 2
+Task4: arrivalTime: 4   serviceTime: 2
+Server 1:
+Task2: arrivalTime: 4   serviceTime: 2
+Server 2:
+Task4: arrivalTime: 4   serviceTime: 2
+Current Time: 7
+--------------------------------------------
+Generated Tasks:
+Task2: arrivalTime: 4   serviceTime: 1
+Task4: arrivalTime: 4   serviceTime: 1
+Server 1:
+Task2: arrivalTime: 4   serviceTime: 1
+Server 2:
+Task4: arrivalTime: 4   serviceTime: 1
+Current Time: 8
+--------------------------------------------
+Generated Tasks:
+Server 1:
+Server 2:
